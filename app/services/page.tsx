@@ -1,10 +1,5 @@
-import { Layout } from '@/components/layout/Layout'
-import ServicesIndex from '@/pages_old/ServicesIndex'
+import EnhancedServices from './enhanced-page'
 
 export default function Services() {
-  return (
-    <Layout>
-      <ServicesIndex />
-    </Layout>
-  )
+  return <EnhancedServices />
 }

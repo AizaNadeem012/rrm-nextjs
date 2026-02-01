@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 18, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/FR-Traders/Pictures/rrm-nextjs/app/problems/page.tsx"],"sourcesContent":["import EnhancedProblems from './enhanced-page'\r\n\r\nexport default function Problems() {\r\n  return (\r\n    <ColorfulBackground pageType=\"problems\">\r\n      <Layout>\r\n        <ProblemsIndex />\r\n      </Layout>\r\n    </ColorfulBackground>\r\n  )\r\n}"],"names":[],"mappings":";;;;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAmB,UAAS;kBAC3B,cAAA,8OAAC;sBACC,cAAA,8OAAC;;;;;;;;;;;;;;;AAIT"}}]
+}

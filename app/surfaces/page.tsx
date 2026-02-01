@@ -1,10 +1,5 @@
-import { Layout } from '@/components/layout/Layout'
-import SurfacesIndex from '@/pages_old/SurfacesIndex'
+import EnhancedSurfaces from './enhanced-page'
 
 export default function Surfaces() {
-  return (
-    <Layout>
-      <SurfacesIndex />
-    </Layout>
-  )
+  return <EnhancedSurfaces />
 }

@@ -1,10 +1,5 @@
-import { Layout } from '@/components/layout/Layout'
-import LocationsIndex from '@/pages_old/LocationsIndex'
+import EnhancedLocations from './enhanced-page'
 
 export default function Locations() {
-  return (
-    <Layout>
-      <LocationsIndex />
-    </Layout>
-  )
+  return <EnhancedLocations />
 }

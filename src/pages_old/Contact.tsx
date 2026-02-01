@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Layout } from '@/components/layout/Layout';
+// import { Layout } from '@/components/layout/Layout';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
@@ -18,7 +18,7 @@ export default function Contact() {
   };
 
   return (
-    <Layout>
+    <>
       {/* Hero */}
       <section className="hero-bg py-16 md:py-24">
         <div className="container-custom">
@@ -203,6 +203,6 @@ export default function Contact() {
           </div>
         </div>
       </section>
-    </Layout>
+    </>
   );
 }

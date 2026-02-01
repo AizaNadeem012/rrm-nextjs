@@ -8,6 +8,7 @@ import { WhyChooseUs } from '@/components/home/WhyChooseUs'
 import { FAQPreview } from '@/components/home/FAQPreview'
 import { CTASection } from '@/components/home/CTASection'
 import VideoSection from '@/components/VideoSection'
+import { ColorfulBackground } from '@/components/ColorfulBackground'
 import { useEffect } from 'react'
 import { localBusinessSchema, organizationSchema } from '@/lib/schema'
 
@@ -32,14 +33,16 @@ export default function Home() {
   }, [])
 
   return (
-    <Layout>
-      <Hero />
-      <VideoSection />
-      <ServicesOverview />
-      <WhyChooseUs />
-      <AreasSection />
-      <FAQPreview />
-      <CTASection />
-    </Layout>
+    <ColorfulBackground pageType="home">
+      <Layout>
+        <Hero />
+        <VideoSection />
+        <ServicesOverview />
+        <WhyChooseUs />
+        <AreasSection />
+        <FAQPreview />
+        <CTASection />
+      </Layout>
+    </ColorfulBackground>
   )
 }
