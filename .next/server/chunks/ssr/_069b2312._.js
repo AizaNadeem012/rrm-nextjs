@@ -1,0 +1,3 @@
+module.exports=[70864,a=>{a.n(a.i(33290))},2894,a=>{a.n(a.i(66188))},13718,a=>{a.n(a.i(85523))},18198,a=>{a.n(a.i(45518))},62212,a=>{a.n(a.i(66114))},90652,a=>{"use strict";var b=a.i(7997),c=a.i(1698);function d(){return(0,b.jsx)(c.Layout,{children:(0,b.jsx)("div",{className:"section-padding bg-background",children:(0,b.jsxs)("div",{className:"container-custom",children:[(0,b.jsx)("h1",{className:"text-3xl font-bold mb-6",children:"Gutter Cleaning Services"}),(0,b.jsx)("p",{className:"text-lg",children:"Professional gutter cleaning services in your area."})]})})})}a.s(["default",()=>d])}];
+
+//# sourceMappingURL=_069b2312._.js.map

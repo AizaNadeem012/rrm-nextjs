@@ -1,0 +1,17 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/services/layout,_N_T_/services/gutter-cleaning/layout,_N_T_/services/gutter-cleaning/newton-le-willows/layout,_N_T_/services/gutter-cleaning/newton-le-willows/page,_N_T_/services/gutter-cleaning/newton-le-willows"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/services/gutter-cleaning/newton-le-willows/__PAGE__",
+    "/services/gutter-cleaning/newton-le-willows",
+    "/services/gutter-cleaning",
+    "/services",
+    "/_index",
+    "/_head"
+  ]
+}

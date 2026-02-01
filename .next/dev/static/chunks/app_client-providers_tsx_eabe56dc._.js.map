@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/FR-Traders/Desktop/rrm-nextjs/app/client-providers.tsx"],"sourcesContent":["'use client';\r\n\r\nimport { Toaster } from '@/components/ui/toaster'\r\nimport { Toaster as Sonner } from '@/components/ui/sonner'\r\nimport { TooltipProvider } from '@/components/ui/tooltip'\r\nimport { QueryClient, QueryClientProvider } from '@tanstack/react-query'\r\nimport { HelmetProvider } from 'react-helmet-async'\r\nimport { ReactNode } from 'react'\r\n\r\n// Create a client\r\nconst queryClient = new QueryClient()\r\n\r\nexport function ClientProviders({ children }: { children: ReactNode }) {\r\n  return (\r\n    <QueryClientProvider client={queryClient}>\r\n      <HelmetProvider>\r\n        <TooltipProvider>\r\n          <Toaster />\r\n          <Sonner />\r\n          {children}\r\n        </TooltipProvider>\r\n      </HelmetProvider>\r\n    </QueryClientProvider>\r\n  )\r\n}"],"names":[],"mappings":";;;;;;;;;;;;;;;;;;;;AAKA;AAAA;AACA;AANA;;;;;;;AASA,kBAAkB;AAClB,MAAM,cAAc,IAAI,+LAAW;AAE5B,SAAS,gBAAgB,EAAE,QAAQ,EAA2B;IACnE,qBACE,6LAAC,gNAAmB;QAAC,QAAQ;kBAC3B,cAAA,6LAAC,oLAAc;sBACb,cAAA,6LAAC;;kCACC,6LAAC;;;;;kCACD,6LAAC;;;;;oBACA;;;;;;;;;;;;;;;;;AAKX;KAZgB"}}]
+}

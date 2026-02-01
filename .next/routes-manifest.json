@@ -1,0 +1,163 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/locations/[locationSlug]",
+      "regex": "^/locations/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPlocationSlug": "nxtPlocationSlug"
+      },
+      "namedRegex": "^/locations/(?<nxtPlocationSlug>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/services/[serviceSlug]",
+      "regex": "^/services/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPserviceSlug": "nxtPserviceSlug"
+      },
+      "namedRegex": "^/services/(?<nxtPserviceSlug>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/areas",
+      "regex": "^/areas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/areas(?:/)?$"
+    },
+    {
+      "page": "/contact",
+      "regex": "^/contact(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contact(?:/)?$"
+    },
+    {
+      "page": "/faq",
+      "regex": "^/faq(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/faq(?:/)?$"
+    },
+    {
+      "page": "/locations",
+      "regex": "^/locations(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/locations(?:/)?$"
+    },
+    {
+      "page": "/privacy-policy",
+      "regex": "^/privacy\\-policy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacy\\-policy(?:/)?$"
+    },
+    {
+      "page": "/problems",
+      "regex": "^/problems(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/problems(?:/)?$"
+    },
+    {
+      "page": "/services",
+      "regex": "^/services(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services(?:/)?$"
+    },
+    {
+      "page": "/services/gutter-cleaning",
+      "regex": "^/services/gutter\\-cleaning(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/gutter\\-cleaning(?:/)?$"
+    },
+    {
+      "page": "/services/gutter-cleaning/newton-le-willows",
+      "regex": "^/services/gutter\\-cleaning/newton\\-le\\-willows(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/gutter\\-cleaning/newton\\-le\\-willows(?:/)?$"
+    },
+    {
+      "page": "/services/gutter-cleaning/st-helens",
+      "regex": "^/services/gutter\\-cleaning/st\\-helens(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/gutter\\-cleaning/st\\-helens(?:/)?$"
+    },
+    {
+      "page": "/services/roof-cleaning/newton-le-willows",
+      "regex": "^/services/roof\\-cleaning/newton\\-le\\-willows(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/services/roof\\-cleaning/newton\\-le\\-willows(?:/)?$"
+    },
+    {
+      "page": "/surfaces",
+      "regex": "^/surfaces(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/surfaces(?:/)?$"
+    },
+    {
+      "page": "/terms-conditions",
+      "regex": "^/terms\\-conditions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terms\\-conditions(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

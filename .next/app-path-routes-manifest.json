@@ -1,0 +1,21 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/areas/page": "/areas",
+  "/contact/page": "/contact",
+  "/faq/page": "/faq",
+  "/locations/[locationSlug]/page": "/locations/[locationSlug]",
+  "/locations/page": "/locations",
+  "/page": "/",
+  "/privacy-policy/page": "/privacy-policy",
+  "/problems/page": "/problems",
+  "/services/[serviceSlug]/page": "/services/[serviceSlug]",
+  "/services/gutter-cleaning/newton-le-willows/page": "/services/gutter-cleaning/newton-le-willows",
+  "/services/gutter-cleaning/page": "/services/gutter-cleaning",
+  "/services/gutter-cleaning/st-helens/page": "/services/gutter-cleaning/st-helens",
+  "/services/page": "/services",
+  "/services/roof-cleaning/newton-le-willows/page": "/services/roof-cleaning/newton-le-willows",
+  "/surfaces/page": "/surfaces",
+  "/terms-conditions/page": "/terms-conditions"
+}
